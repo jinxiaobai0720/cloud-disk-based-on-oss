@@ -168,7 +168,7 @@ public class OSSUtils {
     }
 
     public String uploadImg(File file) {
-        String bucketName = "avatorandqr";
+        String bucketName = "avatorandqroliver";
         if (!file.exists()) {
             return "";
         }
