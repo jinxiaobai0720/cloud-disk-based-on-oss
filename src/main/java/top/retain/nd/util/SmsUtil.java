@@ -17,7 +17,7 @@ import java.util.Arrays;
 public class SmsUtil {
 
     public static final String SMS_SUCCESS = "OK";
-    private final static int appid = 1400489215;
+    private final static int appid = 1400799179;
     private final static String appkey = "*";
     private static String profiles;
 
