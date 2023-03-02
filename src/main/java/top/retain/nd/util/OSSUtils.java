@@ -186,7 +186,7 @@ public class OSSUtils {
     }
 
     public String uploadAvator(MultipartFile file, Long userId) throws IOException {
-        String bucketName = "focus-avator-1";
+        String bucketName = "focus-avator-oliver-1";
         String targetFilePath = userId + "/" + file.getOriginalFilename();
         OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
         PutObjectRequest putObjectRequest = new PutObjectRequest(bucketName, targetFilePath, file.getInputStream());
