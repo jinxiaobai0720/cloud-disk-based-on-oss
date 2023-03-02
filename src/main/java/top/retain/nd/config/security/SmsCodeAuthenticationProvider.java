@@ -113,7 +113,7 @@ public class SmsCodeAuthenticationProvider implements AuthenticationProvider {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            if (SmsUtil.sendSms(1176542, new String[]{phoneNumber}, new String[]{password})){
+            if (SmsUtil.sendSms(1718043, new String[]{phoneNumber}, new String[]{password})){
                 log.info(phoneNumber + "初始密码为： "+password + ", 已发送短信");
             }else {
             }
