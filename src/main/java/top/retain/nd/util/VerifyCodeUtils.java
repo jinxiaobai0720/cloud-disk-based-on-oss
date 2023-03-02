@@ -57,7 +57,7 @@ public class VerifyCodeUtils {
         redisUtils.expire(CODE_PREFIX + phoneNumber,600L);
         if (set) {
             log.info("验证码成功存入缓存");
-            if (SmsUtil.sendSms(879648, new String[]{phoneNumber}, params)){
+            if (SmsUtil.sendSms(1718085, new String[]{phoneNumber}, params)){
                 log.info("短信成功发送到 "+phoneNumber);
                 return true;
             }
