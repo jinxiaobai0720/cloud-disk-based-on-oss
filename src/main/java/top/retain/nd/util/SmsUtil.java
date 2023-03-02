@@ -28,7 +28,7 @@ public class SmsUtil {
 //        profiles = Constants.TEST_PROFILE;
     }
 
-    // 876859:第一条通知模板   877079：第二条通知模板  879648: 绑定验证码模板
+    // 876859:第一条通知模板   1718043：第二条通知模板  1718085: 绑定验证码模板
     public static boolean sendSms(int templateId, String[] phoneNumbers, String[] params) {
         if ("dev".equals(profiles)) {
             log.info("SmsUtil工具类发送验证码到" + Arrays.toString(phoneNumbers));
